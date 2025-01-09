@@ -2,7 +2,7 @@ from bs4 import BeautifulSoup
 import requests
 import urllib3
 
-# Attempting to scrap the websate causes an SSL error because a bad implementation of SSL certification
+# Attempting to scrap the website causes an SSL error because a bad implementation of SSL certification
 urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 url = 'https://bcv.org.ve'
 
